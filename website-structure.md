@@ -9,7 +9,7 @@ Die Seite soll heruntergeladen werden können und mit Visual Studio Code Live Se
 
 
 ## Ziele
-- Hauptziel: Navigation ist gewährleistet. Lernende können Code auschecken und 
+- Hauptziel: Navigation ist gewährleistet. Lernende können Code auschecken und damit arbeiten
 - Nebenziel: Es wird ausschliesslich HTML / CSS / allenfalls Javascript verwendet
 
 ## Sitemap (Übersicht)
@@ -23,6 +23,7 @@ Die Seite soll heruntergeladen werden können und mit Visual Studio Code Live Se
   - Übung 2
 
 ## Seitenvorlagen (kurze Inhaltsstruktur)
+
 ### Startseite
 - Hero (Headline, kurzer Text, Zweck der Seite wird kurz beschrieben)
 - Wie kann Seite genutzt werden, wie können Übungen erledigt werden
@@ -51,6 +52,9 @@ In einem Bereich wird "Lösung" gerendert
 - Footer
 - Karten / Cards
 - Buttons / CTAs
+
+## Navigation
+Die Haupt Navigation soll auf jeder Seite sichtbar sein
 
 ## Responsives Verhalten
 - Mobile, Tablet, Desktop Breakpoints

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Flexbox Übung 1 - Aufgabe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Flexbox Übung 1 - Aufgabe</h1>
+      <a href="../index.html">Zurück zur Übungsübersicht</a>
+    </header>
+    <main class="main">
+      <section class="intro">
+        <p>
+          Passe die Flexbox-Eigenschaften so an, dass die Items in einer
+          untereinander erscheinen
+        </p>
+      </section>
+
+      <section class="render">
+        <h2>Ihr Code</h2>
+        <iframe
+          src="yourCode/code.html"
+          title="Ihr Code"
+          class="preview"
+          sandbox="allow-scripts allow-same-origin"
+        ></iframe>
+      </section>
+
+      <section class="render">
+        <h2>Lösung</h2>
+        <iframe
+          src="solution/code.html"
+          title="Lösung"
+          class="preview"
+          sandbox="allow-scripts allow-same-origin"
+        ></iframe>
+      </section>
+    </main>
+
+    <script>
+      function resizeIframe(iframeId) {
+        const iframe = document.getElementById(iframeId);
+        iframe.addEventListener("load", () => {
+          iframe.style.height =
+            iframe.contentWindow.document.body.scrollHeight + "px";
+        });
+      }
+
+      // Apply to both iframes
+      resizeIframe("userCode");
+      resizeIframe("solutionCode");
+    </script>
+  </body>
+</html>
