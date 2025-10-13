@@ -19,35 +19,29 @@
         </p>
       </section>
 
-      <section class="render">
-        <h2>Ihr Code</h2>
-        <iframe
-          src="yourCode/code.html"
-          title="Ihr Code"
-          class="preview"
-          id="userCode"
-          sandbox="allow-scripts allow-same-origin"
-        ></iframe>
-      </section>
+      <section class="output">
+        <div class="render">
+          <h2>Ihr Code</h2>
+          <iframe
+            src="yourCode/code.html"
+            title="Ihr Code"
+            class="preview"
+            id="userCode"
+            sandbox="allow-scripts allow-same-origin"
+          ></iframe>
+        </div>
 
-      <section class="render">
-        <h2>Lösung</h2>
-        <iframe
-          src="solution/code.html"
-          title="Lösung"
-          class="preview"
-          id="solutionCode"
-          sandbox="allow-scripts allow-same-origin"
-        ></iframe>
+        <div class="render">
+          <h2>Lösung</h2>
+          <iframe
+            src="solution/code.html"
+            title="Lösung"
+            class="preview"
+            id="solutionCode"
+            sandbox="allow-scripts allow-same-origin"
+          ></iframe>
+        </div>
       </section>
     </main>
-
-    <script src="../../scripts/iframe-resizer.js"></script>
-    <script>
-      // initialize resizer for both frames
-      if (window.iframeResizer) {
-        window.iframeResizer(["userCode", "solutionCode"]);
-      }
-    </script>
   </body>
 </html>
