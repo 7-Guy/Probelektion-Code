@@ -1,14 +1,24 @@
 .container {
-  display: flex;
-  flex-direction: column;
-  background-color: DodgerBlue;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: dodgerblue;
+  padding: 10px;
 }
 
-.container div {
+.container > div {
   background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px;
   text-align: center;
-  line-height: 75px;
+  padding: 10px;
   font-size: 30px;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.item7 {
+  grid-column-start: 2;
+  grid-column-end: 4;
 }

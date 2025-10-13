@@ -41,6 +41,7 @@ header {
   background-color: #f8f9fa;
   border-bottom: 2px solid #e0e0e0;
   padding: 1rem;
+  gap: 0.1rem;
 }
 
 .back-button {

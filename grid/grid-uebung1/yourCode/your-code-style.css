@@ -1,14 +1,12 @@
 .container {
-  /* Tipp: nutzen sie "display" und "justify-content" properties */
-  background-color: DodgerBlue;
+  /* Tipp: nutzen sie "display" und "grid-template-columns:" properties */
+  background-color: dodgerblue;
+  padding: 10px;
 }
-
-.container div {
-  display: inline-block;
+.container > div {
   background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
+  border: 1px solid black;
+  padding: 10px;
   font-size: 30px;
+  text-align: center;
 }
