@@ -42,18 +42,12 @@
       </section>
     </main>
 
+    <script src="../../scripts/iframe-resizer.js"></script>
     <script>
-      function resizeIframe(iframeId) {
-        const iframe = document.getElementById(iframeId);
-        iframe.addEventListener("load", () => {
-          iframe.style.height =
-            iframe.contentWindow.document.body.scrollHeight + "px";
-        });
+      // initialize resizer for both frames
+      if (window.iframeResizer) {
+        window.iframeResizer(["userCode", "solutionCode"]);
       }
-
-      // Apply to both iframes
-      resizeIframe("userCode");
-      resizeIframe("solutionCode");
     </script>
   </body>
 </html>
