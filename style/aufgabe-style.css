@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+}
+.main {
+  margin: 1rem auto;
+}
+.render {
+  margin-top: 1.25rem;
+}
+.preview {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+.fallback {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa;
+  margin: 1rem auto;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.back-button {
+  display: inline-block;
+  background-color: #004080;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  font-weight: 500;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+.back-button:active {
+  transform: scale(0.97);
+}
