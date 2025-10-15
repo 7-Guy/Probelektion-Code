@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grundlagen Flexbox/Grid</title>
+    <link rel="stylesheet" href="../style/main.css" />
+    <link rel="stylesheet" href="theory-styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="../index.html">Startseite</a>
+        <a href="../flexbox/index.html">Flexbox Übungen</a>
+        <a href="../grid/index.html">Grid Übungen</a>
+        <a href="../theory/index.html">Grundlagen Theorie</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <h1>Grundlagen Flexbox/Grid</h1>
+      <div class="card">
+        <p>
+          Mit <code>display: inline</code> können Elemente nebeneinander
+          angeordnet werden.
+        </p>
+        <div class="inline-item rounded-corners">inline item 1</div>
+        <div class="inline-item rounded-corners">inline item 2</div>
+        <div class="inline-item rounded-corners">inline item 3</div>
+
+        <p>
+          Mit <code>display: flex</code> können Elemente
+          <span class="highlight">innerhalb eines Containers (Box)</span>
+          flexibel angeordnet werden.
+        </p>
+        <div class="flex-container">
+          <div class="flex-item rounded-corners">flex item 1</div>
+          <div class="flex-item rounded-corners">flex item 2</div>
+          <div class="flex-item rounded-corners">flex item 3</div>
+        </div>
+
+        <p>
+          Mit <code>display: grid</code> lassen sich Elemente in einem
+          <span class="highlight">Raster (Zeilen & Spalten)</span> anordnen.
+        </p>
+        <div class="grid-container">
+          <div class="grid-item rounded-corners">grid item 1</div>
+          <div class="grid-item rounded-corners">grid item 2</div>
+          <div class="grid-item rounded-corners">grid item 3</div>
+          <div class="grid-item rounded-corners">grid item 4</div>
+          <div class="grid-item rounded-corners grid-span-2-cols">
+            grid item 5
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>&copy; 2025 Manuel Aschwanden</footer>
+  </body>
+</html>
