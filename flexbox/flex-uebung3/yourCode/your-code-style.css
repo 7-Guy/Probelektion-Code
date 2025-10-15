@@ -17,5 +17,5 @@
   font-size: 30px;
 }
 @media (max-width: 600px) {
-  /* Ändere die Flexbox-Eigenschaften hier, damit die Items bei einer maximalen Breite von 600px untereinander erscheinen */
+  /* Ändere die Flexbox-Eigenschaften hier, damit die Items bei einer maximalen Breite von 600px untereinander erscheinen und die ganze Breite einnehmen */
 }
